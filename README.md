@@ -1,7 +1,8 @@
 # Wiki-API
 A RESTful API built using Node.js and Express.js which allows you to perform all CRUD operations using MongoDB as the database (along with mongoose) on articles just like on a Wikipedia like website.
 
-#Usage
+# Usage
+
 The "/articles" route is used to access all the articles in one go and thus serves to GET, POST and DELETE requests.
 The GET request sent to this route returns all the articles present inside the connected MongoDB database at the time.
 The POST request is sent a new article object to be added into the database.
